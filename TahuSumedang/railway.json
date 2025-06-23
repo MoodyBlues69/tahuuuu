@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {},
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "phases": {
+        "start": {
+          "cmds": ["php -S 0.0.0.0:$PORT -t ."]
+        }
+      }
+    }
+  }
+}
