@@ -1,0 +1,145 @@
+/* Berita utama */
+.featured-news {
+  padding: 40px 20px;
+  margin-bottom: 10px;
+}
+
+.featured-news h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+
+.featured-news-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.featured-news-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.featured-news-card:hover {
+    transform: translateY(-5px);
+}
+
+.featured-news-content {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featured-news-header h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+
+.news-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.news-category {
+  background: #ff6b35;
+  color: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+}
+
+.news-date,
+.news-views {
+  color: #666;
+}
+
+.featured-news-content h3 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.news-author {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Berita lainnya */
+.news-grid-section {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  background: #f8f9fa;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.news-badge {
+  background: #ff6b35;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.news-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card h3 {
+  color: #1f2937;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.news-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.news-content {
+    padding: 1rem 1.5rem 1.5rem;
+    flex-grow: 1;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
