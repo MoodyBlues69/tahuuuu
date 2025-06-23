@@ -1,0 +1,170 @@
+/* Sejarah singkat */
+.history-section {
+    padding: 60px 0;
+    background: white;
+}
+
+.history-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.history-content {
+    flex: 1;
+}
+
+.history-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f8f9fa;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1f2937;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #1f2937;
+}
+
+/* Data singkat */
+.stats-section {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.stats-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.stats-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    color: #1f2937;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.stat-card p {
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Budaya & Tradisi */
+.culture-section {
+    padding: 60px 0;
+    background: white;
+}
+
+.culture-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.culture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.culture-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+
+.culture-content {
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.culture-list {
+    columns: 2;
+    column-gap: 30px;
+}
+
+.culture-list li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.6;
+    break-inside: avoid;
+}
+
+.culture-list li:before {
+    content: "•";
+    color: #ff6b35;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.culture-category {
+    color: #ff6b35;
+    margin: 25px 0 15px;
+    font-size: 1.3rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.culture-category:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ff6b35;
+}

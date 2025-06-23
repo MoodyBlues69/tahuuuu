@@ -1,0 +1,155 @@
+/* Header */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMAGE/orio.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Quick card */
+.info-cards {
+    padding: 60px 0;
+    background: white;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+/* Preview wisata */
+.tourism-preview {
+    padding: 20px 0;
+}
+
+.tourism-preview h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: #1f2937;
+}
+
+.tourism-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tourism-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tourism-card:hover {
+    transform: translateY(-5px);
+}
+
+.tourism-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tourism-card h3 {
+    color: #1f2937;
+    margin: 1rem 0 0.5rem;
+    padding: 0 1rem;
+}
+
+.tourism-card p {
+    padding: 0 1rem 1.5rem;
+    color: #666;
+}
+
+/* Preview berita */
+.news-preview {
+    padding: 60px 0;
+    background: white;
+    text-align: center; /* Pusatkan seluruh konten */
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin: 0 0 1rem 0; /* Atur margin hanya di bawah */
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.news-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left; /* Teks dalam card rata kiri */
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
